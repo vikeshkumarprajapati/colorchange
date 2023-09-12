@@ -1,0 +1,43 @@
+*,
+*after,
+*before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 23px;
+    color: #fff;
+
+
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+input {
+    border: none;
+
+}
+
+button {
+
+    padding: 15px;
+    margin-top: 23px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
